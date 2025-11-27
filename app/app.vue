@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-100 py-10 print:p-0 print:bg-white flex flex-col items-center gap-8 print:block print:gap-0 font-sans text-gray-800">
     
     <!-- Page 1 -->
-    <div class="bg-white w-[210mm] min-h-[297mm] p-8 shadow-lg print:shadow-none print:w-full print:min-h-0 print:p-0 box-border print:break-after-page">
+    <div class="bg-white w-[210mm] min-h-[297mm] p-8 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border print:break-after-page">
       
       <!-- Header -->
       <header class="text-center mb-6">
@@ -147,7 +147,7 @@
     </div>
 
     <!-- Page 2 -->
-    <div class="bg-white w-[210mm] min-h-[297mm] p-8 shadow-lg print:shadow-none print:w-full print:min-h-0 print:p-0 box-border">
+    <div class="bg-white w-[210mm] min-h-[297mm] p-8 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border">
       <!-- Education -->
       <section class="mb-6">
         <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
@@ -296,9 +296,12 @@ useHead({
 @media print {
   @page {
     margin: 0;
+    size: A4;
   }
   body {
     background: white;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
   }
 }
 </style>
