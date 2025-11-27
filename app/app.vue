@@ -2,11 +2,11 @@
   <div class="min-h-screen bg-gray-100 py-10 print:p-0 print:bg-white flex flex-col items-center gap-8 print:block print:gap-0 font-sans text-gray-800">
     
     <!-- Page 1 -->
-    <div class="bg-white w-[210mm] min-h-[297mm] p-8 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border print:break-after-page">
+    <div class="bg-white w-[210mm] min-h-[297mm] p-8 print:p-6 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border print:break-after-page">
       
       <!-- Header -->
-      <header class="text-center mb-6">
-        <h1 class="text-4xl font-bold text-primary mb-4 uppercase tracking-wide">Mostafa Ali</h1>
+      <header class="text-center mb-6 print:mb-2">
+        <h1 class="text-4xl font-bold text-primary mb-4 print:mb-2 uppercase tracking-wide">Mostafa Ali</h1>
         
         <div class="flex justify-center mt-2">
           <table class="text-sm text-gray-700 border-collapse">
@@ -83,8 +83,8 @@
       </header>
 
       <!-- Profile -->
-      <section class="mb-6">
-        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-3 flex items-center gap-2">
+      <section class="mb-6 print:mb-4">
+        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-3 print:mb-2 flex items-center gap-2">
            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0c0 .667.455 1 1 1h2c.545 0 1-.333 1-1" />
           </svg>
@@ -97,7 +97,7 @@
 
       <!-- Professional Experience -->
       <section>
-        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
+        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 print:mb-2 flex items-center gap-2">
            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
           </svg>
@@ -105,14 +105,14 @@
         </h2>
 
         <!-- Job 1 -->
-        <article class="flex mb-4">
+        <article class="flex mb-4 print:mb-2">
           <div class="w-[15%] text-sm font-semibold text-primary pt-1 whitespace-nowrap">
             <p>06/2024–present</p>
             <p class="text-primary">Cairo, Egypt</p>
           </div>
           <div class="w-[85%] pl-6">
             <h3 class="font-bold text-lg">Backend DEVELOPER, <span class="italic font-normal">Remah digital</span></h3>
-            <ul class="list-disc list-outside ml-4 text-sm space-y-1 mt-1">
+            <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Develop and maintain full-stack web applications using the Laravel framework, focusing on creating scalable and secure systems for various clients.</li>
               <li>Engineer RESTful APIs to support mobile and frontend integrations, ensuring seamless data flow and communication between services.</li>
               <li>Established clear performance metrics for the team which helped in tracking progress towards set targets effectively.</li>
@@ -136,7 +136,7 @@
           </div>
            <div class="w-[85%] pl-6">
             <h3 class="font-bold text-lg">Backend intern, <span class="italic font-normal">Active4Web</span></h3>
-            <ul class="list-disc list-outside ml-4 text-sm space-y-1 mt-1">
+            <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Develop and maintain full-stack web applications using the Laravel framework, focusing on creating scalable and secure systems for various clients.</li>
               <li>Engineer RESTful APIs to support mobile and frontend integrations, ensuring seamless data flow and communication between services.</li>
               <li>Established clear performance metrics for the team. Collaborate with teams to design database schemas, implement business logic, and integrate third-party services like payment gateways.</li>
@@ -147,7 +147,7 @@
     </div>
 
     <!-- Page 2 -->
-    <div class="bg-white w-[210mm] min-h-[297mm] p-8 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border">
+    <div class="bg-white w-[210mm] min-h-[297mm] p-8 print:p-6 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border">
       <!-- Education -->
       <section class="mb-6">
         <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
