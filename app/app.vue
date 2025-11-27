@@ -85,7 +85,7 @@
           Profile
         </h2>
         <p class="text-sm text-justify leading-relaxed">
-          I am a deeply passionate and detail-oriented Junior Backend Developer with a strong foundation in Laravel and PHP. With over a year of hands-on market experience, I have a proven ability to independently handle projects from A to Z, rapidly delivering robust, large-scale web applications. My expertise covers building applications with Blade templating (using jQuery and AJAX) and developing/consuming RESTful APIs. As a proactive developer, I am always eager to take on new challenges and prove myself. While my core skills are in the PHP ecosystem, I am a quick learner and ready to work with other technologies like Node.js or Python if required. I am confident in my ability to adapt and be a valuable member of your team.
+          Detail-oriented Junior Backend Developer with over a year of professional experience in building robust, large-scale web applications using PHP and Laravel. Proven track record of managing the full software development lifecycle, from database design (MySQL, MongoDB) to deploying RESTful APIs and integrating frontend technologies like Vue.js, jQuery, and Tailwind CSS. Strong command of OOP, SOLID principles, and design patterns (MVC, HMVC, Repository). Skilled in cloud integration (AWS S3, SES) and version control with Git. Adaptable and proactive, with expanding proficiency in Node.js and Python, dedicated to delivering high-quality, scalable solutions.
         </p>
       </section>
 
@@ -129,11 +129,11 @@
             <p class="text-primary">Cairo, Egypt</p>
           </div>
            <div class="w-[85%] pl-6">
-            <h3 class="font-bold text-lg">Backend intern, <span class="italic font-normal">Active4Web</span></h3>
+            <h3 class="font-bold text-lg">Backend Intern, <span class="italic font-normal">Active4Web</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
-              <li>Develop and maintain full-stack web applications using the Laravel framework, focusing on creating scalable and secure systems for various clients.</li>
-              <li>Engineer RESTful APIs to support mobile and frontend integrations, ensuring seamless data flow and communication between services.</li>
-              <li>Established clear performance metrics for the team. Collaborate with teams to design database schemas, implement business logic, and integrate third-party services like payment gateways.</li>
+              <li>Assisted the development team in building and maintaining backend modules using Laravel and MySQL.</li>
+              <li>Collaborated on debugging and refactoring legacy code to improve application stability and performance.</li>
+              <li>Gained hands-on experience with RESTful API development and learned best practices for clean code architecture.</li>
             </ul>
           </div>
         </article>
@@ -159,8 +159,8 @@
             <p><span class="border-b-2 ">Cairo</span>,Egypt</p>
           </div>
           <div class="w-[85%] pl-6">
-            <h3 class="font-bold text-lg">Computer</h3>
-            <h3 class="font-bold text-lg">Science Sha</h3>
+            <h3 class="font-bold text-lg">Computer Science</h3>
+            <h3 class="font-bold text-lg"> (SHA)</h3>
             <div class="mt-2">
                 <p class="text-sm"><span class="font-bold">Accumulative Grade:</span>Very Good</p>
                 <p class="text-sm"><span class="font-bold">Project Grade:</span> Excellent.</p>
@@ -193,13 +193,13 @@
                 </div>
                  <div>
                     <p class="font-bold">VCS</p>
-                    <p class="italic text-gray-600">GitHub and Git</p>
+                    <p class="italic text-gray-600">Git & GitHub</p>
                 </div>
             </div>
             <div>
                 <div class="mb-3">
                     <p class="font-bold">Backend Development</p>
-                    <p class="italic text-gray-600 leading-relaxed">PHP, Laravel, NodeJS, Python, PDO, Clean Architecture, Architecture Patterns (MVVM, MVC, HMVC), SOLID Principles, OOP, RESTful API, JSON, CodeIgniter</p>
+                    <p class="italic text-gray-600 leading-relaxed">PHP, Laravel, NodeJS, Python,  AWS S3, AWS SES, Alpine.js , PDO, Clean Architecture, Architecture Patterns (MVVM, MVC, HMVC), SOLID Principles, OOP, RESTful API, JSON, CodeIgniter</p>
                 </div>
                 <div>
                     <p class="font-bold">Design Patterns</p>
