@@ -2,13 +2,13 @@
   <div class="min-h-screen bg-gray-100 py-10 print:p-0 print:bg-white flex flex-col items-center gap-8 print:block print:gap-0 font-sans text-gray-800">
     
     <!-- Page 1 -->
-    <div class="bg-white w-[210mm] min-h-[297mm] p-8 print:p-6 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border print:break-after-page">
+    <div class="bg-white w-full md:w-[210mm] min-h-[297mm] p-4 md:p-8 print:p-6 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border print:break-after-page">
       
       <!-- Header -->
       <header class="text-center mb-6 print:mb-2">
         <h1 class="text-4xl font-bold text-primary mb-4 print:mb-2 uppercase tracking-wide">Mostafa Ali</h1>
         
-                <div class="grid grid-cols-4 gap-y-2 gap-x-4 mt-4 text-sm text-gray-700 max-w-4xl mx-auto text-left">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-2 gap-x-4 mt-4 text-sm text-gray-700 max-w-4xl mx-auto text-left">
                   <!-- Row 1 -->
                   
                   <!-- Nationality -->
@@ -99,12 +99,12 @@
         </h2>
 
         <!-- Job 1 -->
-        <article class="flex mb-4 print:mb-2">
-          <div class="w-[15%] text-sm font-semibold text-primary pt-1 whitespace-nowrap">
+        <article class="flex flex-col md:flex-row mb-4 print:mb-2">
+          <div class="w-full md:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap mb-1 md:mb-0">
             <p>06/2024–present</p>
             <p class="text-primary">Cairo, Egypt</p>
           </div>
-          <div class="w-[85%] pl-6">
+          <div class="w-full md:w-[85%] pl-0 md:pl-6">
             <h3 class="font-bold text-lg">Backend DEVELOPER, <span class="italic font-normal">Remah digital</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Develop and maintain full-stack web applications using the Laravel framework, focusing on creating scalable and secure systems for various clients.</li>
@@ -122,13 +122,13 @@
         </article>
 
         <!-- Job 2 -->
-        <article class="flex">
-           <div class="w-[15%] text-sm font-semibold text-primary pt-1 whitespace-nowrap">
+        <article class="flex flex-col md:flex-row">
+           <div class="w-full md:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap mb-1 md:mb-0">
             <p>01/2024–</p>
             <p>03/2024</p>
             <p class="text-primary">Cairo, Egypt</p>
           </div>
-           <div class="w-[85%] pl-6">
+           <div class="w-full md:w-[85%] pl-0 md:pl-6">
             <h3 class="font-bold text-lg">Backend Intern, <span class="italic font-normal">Active4Web</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Assisted the development team in building and maintaining backend modules using Laravel and MySQL.</li>
@@ -141,7 +141,7 @@
     </div>
 
     <!-- Page 2 -->
-    <div class="bg-white w-[210mm] min-h-[297mm] p-8 print:p-6 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border">
+    <div class="bg-white w-full md:w-[210mm] min-h-[297mm] p-4 md:p-8 print:p-6 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border">
       <!-- Education -->
       <section class="mb-6">
         <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
@@ -153,12 +153,12 @@
           Education
         </h2>
 
-        <article class="flex mb-4">
-          <div class="w-[15%] text-sm font-semibold text-primary pt-1 whitespace-nowrap">
+        <article class="flex flex-col md:flex-row mb-4">
+          <div class="w-full md:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap mb-1 md:mb-0">
             <p>10/2021 –</p><p>06/2025</p>
             <p><span class="border-b-2 ">Cairo</span>,Egypt</p>
           </div>
-          <div class="w-[85%] pl-6">
+          <div class="w-full md:w-[85%] pl-0 md:pl-6">
             <h3 class="font-bold text-lg">Computer Science</h3>
             <h3 class="font-bold text-lg"> (SHA)</h3>
             <div class="mt-2">
@@ -177,7 +177,7 @@
           </svg>
           Technical Skills
         </h2>
-        <div class="grid grid-cols-2 gap-x-8 gap-y-4 text-sm">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-sm">
             <div>
                 <div class="mb-3">
                     <p class="font-bold">Front End Development</p>
@@ -235,7 +235,7 @@
           </svg>
           Languages
         </h2>
-        <div class="flex justify-between w-3/4 text-sm ml-2">
+        <div class="flex justify-between w-full md:w-3/4 text-sm ml-2">
             <div>
                 <span class="font-bold">Arabic</span> <span class="italic text-gray-600">Native</span>
             </div>
