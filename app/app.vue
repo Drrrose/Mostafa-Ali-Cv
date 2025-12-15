@@ -8,7 +8,7 @@
       <header class="text-center mb-6 print:mb-2">
         <h1 class="text-4xl font-bold text-primary mb-4 print:mb-2 uppercase tracking-wide">Mostafa Ali</h1>
         
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-2 gap-x-4 mt-4 text-sm text-gray-700 max-w-4xl mx-auto text-left">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 print:grid-cols-4 gap-y-2 gap-x-4 mt-4 text-sm text-gray-700 max-w-4xl mx-auto text-left">
                   <!-- Row 1 -->
                   
                   <!-- Nationality -->
@@ -61,7 +61,7 @@
                   </div>
         
                   <!-- Phone -->
-                  <div class="flex items-center gap-2 pl-0 md:pl-6">
+                  <div class="flex items-center gap-2 pl-0 md:pl-6 print:pl-6">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary shrink-0" viewBox="0 0 24 24" fill="currentColor">
                       <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 5.25V4.5z" clip-rule="evenodd" />
                     </svg>
@@ -99,12 +99,12 @@
         </h2>
 
         <!-- Job 1 -->
-        <article class="flex flex-col md:flex-row mb-4 print:mb-2">
-          <div class="w-full md:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap mb-1 md:mb-0">
+        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2">
+          <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>06/2024–11/2025</p>
             <p class="text-primary">Cairo, Egypt</p>
           </div>
-          <div class="w-full md:w-[85%] pl-0 md:pl-6">
+          <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
             <h3 class="font-bold text-lg">Backend DEVELOPER, <span class="italic font-normal">Remah digital</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Develop and maintain full-stack web applications using the Laravel framework, focusing on creating scalable and secure systems for various clients.</li>
@@ -122,12 +122,12 @@
         </article>
 
         <!-- Job 2 -->
-        <article class="flex flex-col md:flex-row">
-           <div class="w-full md:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap mb-1 md:mb-0">
+        <article class="flex flex-col md:flex-row print:flex-row">
+           <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>01/2024–06/2024</p>
             <p class="text-primary">Cairo, Egypt</p>
           </div>
-           <div class="w-full md:w-[85%] pl-0 md:pl-6">
+           <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
             <h3 class="font-bold text-lg">Backend Intern, <span class="italic font-normal">Active4Web</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Assisted the development team in building and maintaining backend modules using Laravel and MySQL.</li>
@@ -152,12 +152,12 @@
           Education
         </h2>
 
-        <article class="flex flex-col md:flex-row mb-4">
-          <div class="w-full md:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap mb-1 md:mb-0">
+        <article class="flex flex-col md:flex-row print:flex-row mb-4">
+          <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>10/2021 – 06/2025</p>
             <p><span class="border-b-2 ">Cairo</span>,Egypt</p>
           </div>
-          <div class="w-full md:w-[85%] pl-0 md:pl-6">
+          <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
             <h3 class="font-bold text-lg">Computer Science</h3>
             <h3 class="font-bold text-lg"> (SHA)</h3>
             <div class="mt-2">
@@ -176,7 +176,7 @@
           </svg>
           Technical Skills
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-sm">
+        <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 gap-x-8 gap-y-4 text-sm">
             <div>
                 <div class="mb-3">
                     <p class="font-bold">Front End Development</p>
@@ -234,7 +234,7 @@
           </svg>
           Languages
         </h2>
-        <div class="flex justify-between w-full md:w-3/4 text-sm ml-2">
+        <div class="flex justify-between w-full md:w-3/4 print:w-3/4 text-sm ml-2">
             <div>
                 <span class="font-bold">Arabic</span> <span class="italic text-gray-600">Native</span>
             </div>
@@ -263,7 +263,7 @@
           </div>
           
           <!-- Mobile-only bottom spacer -->
-          <div class="block sm:hidden h-4"></div>
+          <div class="block sm:hidden print:hidden h-4"></div>
           
           <div class="fixed bottom-4 right-4 print:hidden">
             <button onclick="window.print()" class="bg-primary text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-800 transition flex items-center gap-2 font-bold">        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
