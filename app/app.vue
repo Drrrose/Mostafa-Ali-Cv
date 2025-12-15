@@ -6,7 +6,7 @@
       
       <!-- Header -->
       <header class="text-center mb-6 print:mb-2">
-        <h1 class="text-4xl font-bold text-primary mb-4 print:mb-2 uppercase tracking-wide">Mostafa Ali</h1>
+        <h1 class="text-4xl font-bold text-primary mb-1 print:mb-1 uppercase tracking-wide">Mostafa Ali</h1>
         
                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 print:grid-cols-4 gap-y-2 gap-x-4 mt-4 text-sm text-gray-700 max-w-4xl mx-auto text-left">
                   <!-- Row 1 -->
@@ -40,7 +40,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary shrink-0" viewBox="0 0 24 24" fill="currentColor">
                       <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clip-rule="evenodd" />
                     </svg>
-                    <span>9/3/2000</span>
+                    <span>9 March 2000</span>
                   </div>
         
                   <!-- Row 2 -->
@@ -85,7 +85,7 @@
           Profile
         </h2>
         <p class="text-sm text-justify leading-relaxed">
-          Detail-oriented Junior Backend Developer with over a year of professional experience in building robust, large-scale web applications using PHP and Laravel. Proven track record of managing the full software development lifecycle, from database design (MySQL, MongoDB) to deploying RESTful APIs and integrating frontend technologies like Vue.js, jQuery, and Tailwind CSS. Strong command of OOP, SOLID principles, and design patterns (MVC, HMVC, Repository). Skilled in cloud integration (AWS S3, SES) and version control with Git. Adaptable and proactive, with expanding proficiency in Node.js and Python, dedicated to delivering high-quality, scalable solutions.
+          Detail-oriented Mid-level Backend Developer with over a year of professional experience in building robust, large-scale web applications using PHP and Laravel. Proven track record of managing the full software development lifecycle, from database design (MySQL, MongoDB) to deploying RESTful APIs and integrating frontend technologies like Vue.js, jQuery, and Tailwind CSS. Strong command of OOP, SOLID principles, and design patterns (MVC, HMVC, Repository). Skilled in cloud integration (AWS S3, SES) and version control with Git. Adaptable and proactive, with expanding proficiency in Node.js and Python, dedicated to delivering high-quality, scalable solutions.
         </p>
       </section>
 
@@ -105,12 +105,12 @@
             <p class="text-primary">Cairo, Egypt</p>
           </div>
           <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
-            <h3 class="font-bold text-lg">Backend DEVELOPER, <span class="italic font-normal">Remah digital</span></h3>
+            <h3 class="font-bold text-lg">Backend Developer, <span class="italic font-normal">Remah Digital</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
-              <li>Develop and maintain full-stack web applications using the Laravel framework, focusing on creating scalable and secure systems for various clients.</li>
-              <li>Engineer RESTful APIs to support mobile and frontend integrations, ensuring seamless data flow and communication between services.</li>
+              <li>Developed and maintained full-stack web applications using the Laravel framework, focusing on creating scalable and secure systems for various clients.</li>
+              <li>Engineered RESTful APIs to support mobile and frontend integrations, ensuring seamless data flow and communication between services.</li>
               <li>Established clear performance metrics for the team which helped in tracking progress towards set targets effectively.</li>
-              <li>Collaborate with teams to design database schemas, implement business logic, and integrate third-party services like payment gateways and notification systems.</li>
+              <li>Collaborated with teams to design database schemas, implement business logic, and integrate third-party services like payment gateways and notification systems.</li>
               <li>Engineered a secure, multi-lingual, and modular CMS for medical clinics with a focus on HIPAA compliance.</li>
               <li>Implemented encrypted media storage on AWS S3, secure patient data controls, and integrated Twilio for SMS, AWS SES for email.</li>
               <li>Developed a full-stack e-commerce platform with comprehensive product management (variants, attributes), order processing, client management, and a dynamic promotions engine.</li>
@@ -159,10 +159,10 @@
           </div>
           <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
             <h3 class="font-bold text-lg">Computer Science</h3>
-            <h3 class="font-bold text-lg"> (SHA)</h3>
+            <h3 class="font-bold text-lg"> (Shorouk Academy)</h3>
             <div class="mt-2">
-                <p class="text-sm"><span class="font-bold">Accumulative Grade:</span>Very Good</p>
-                <p class="text-sm"><span class="font-bold">Project Grade:</span> Excellent.</p>
+                <p class="text-sm"><span class="font-bold">Cumulative Grade:</span> Very Good</p>
+                <p class="text-sm"><span class="font-bold">Project Grade:</span> Excellent</p>
             </div>
           </div>
         </article>
@@ -198,11 +198,15 @@
             <div>
                 <div class="mb-3">
                     <p class="font-bold">Backend Development</p>
-                    <p class="italic text-gray-600 leading-relaxed">PHP, Laravel, NodeJS, Python,  AWS S3, AWS SES, Alpine.js , PDO, Clean Architecture, Architecture Patterns (MVVM, MVC, HMVC), SOLID Principles, OOP, RESTful API, JSON, CodeIgniter</p>
+                    <p class="italic text-gray-600 leading-relaxed">PHP, Laravel, NodeJS, Python,  AWS S3, AWS SES, Alpine.js , PDO, Clean Architecture, Architecture Patterns (MVVM, MVC, HMVC), SOLID Principles, OOP, RESTful API, JSON, CodeIgniter, Authentication / Authorization, Performance Optimization</p>
                 </div>
-                <div>
+                <div class="mb-3">
                     <p class="font-bold">Design Patterns</p>
                     <p class="italic text-gray-600">Repository, Unit of Work, SignalR and Singleton</p>
+                </div>
+                 <div>
+                    <p class="font-bold">DevOps & Best Practices</p>
+                    <p class="italic text-gray-600">Unit Testing, Agile / Scrum, CI/CD (Basic Knowledge), Docker (Basic Knowledge)</p>
                 </div>
             </div>
         </div>
