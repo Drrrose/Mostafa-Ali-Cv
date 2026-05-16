@@ -99,7 +99,7 @@
         </h2>
 
         <!-- Job DotLaa -->
-        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2">
+        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2 print:break-inside-avoid">
           <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>12/2025–Present</p>
             <p class="text-primary"></p>
@@ -118,7 +118,7 @@
         </article>
 
         <!-- Job 1 -->
-        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2">
+        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2 print:break-inside-avoid">
           <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>06/2024–11/2025</p>
             <p class="text-primary">Cairo, Egypt</p>
@@ -143,7 +143,7 @@
         <!-- Job 2 -->
         <article class="flex flex-col md:flex-row print:flex-row">
            <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
-            <p>01/2024–06/2024</p>
+            <p>01/2024–03/2024</p>
             <p class="text-primary">Cairo, Egypt</p>
           </div>
            <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
