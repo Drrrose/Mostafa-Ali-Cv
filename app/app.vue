@@ -98,6 +98,25 @@
           Professional Experience
         </h2>
 
+        <!-- Job DotLaa -->
+        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2">
+          <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
+            <p>12/2025–Present</p>
+            <p class="text-primary"></p>
+          </div>
+          <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
+            <h3 class="font-bold text-lg">Backend Developer, <span class="italic font-normal">DotLaa Solution</span></h3>
+            <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
+              <li>Architected and developed complex backend systems for multiple platforms using the Laravel ecosystem, demonstrating proficiency in scalable application design and API development.</li>
+              <li>Engineered a comprehensive hotel booking platform with real-time property management. Integrated seamlessly with Agoda and eZee Booking engines, and implemented an interactive WhatsApp chatbot to streamline customer reservations and automate support.</li>
+              <li>Developed a highly secure backend for a matchmaking and matrimony application, implementing intelligent user-matching algorithms, end-to-end messaging features, and integrating Firebase for real-time push notifications.</li>
+              <li>Built a scalable ride-hailing infrastructure featuring real-time geolocation tracking, dynamic driver-passenger matching algorithms, and complex, demand-based pricing models leveraging Spatie and Firebase.</li>
+              <li>Leveraged advanced Laravel features and packages, including Spatie Translatable, Medialibrary, and Permission, for efficient content localization, media handling, and robust role-based access control (RBAC).</li>
+              <li>Integrated diverse third-party services, including AWS S3 for secure media storage, Twilio for communications, and multiple payment gateways to ensure seamless transaction processing.</li>
+            </ul>
+          </div>
+        </article>
+
         <!-- Job 1 -->
         <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2">
           <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
@@ -192,7 +211,7 @@
                 </div>
                  <div>
                     <p class="font-bold">VCS</p>
-                    <p class="italic text-gray-600">Git & GitHub</p>
+                    <p class="italic text-gray-600">Git, GitHub & Bitbucket</p>
                 </div>
             </div>
             <div>

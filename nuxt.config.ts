@@ -8,5 +8,8 @@ export default defineNuxtConfig({
   },
   app: {
     baseURL: '/Mostafa-Ali-Cv/'
+  },
+  devServer: {
+    host: '127.0.0.1'
   }
 })
