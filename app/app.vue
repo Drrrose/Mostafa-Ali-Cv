@@ -85,7 +85,7 @@
           Profile
         </h2>
         <p class="text-sm text-justify leading-relaxed">
-          Detail-oriented Mid-level Backend Developer with over a year of professional experience in building robust, large-scale web applications using PHP and Laravel. Proven track record of managing the full software development lifecycle, from database design (MySQL, MongoDB) to deploying RESTful APIs and integrating frontend technologies like Vue.js, jQuery, and Tailwind CSS. Strong command of OOP, SOLID principles, and design patterns (MVC, HMVC, Repository). Skilled in cloud integration (AWS S3, SES) and version control with Git. Adaptable and proactive, with expanding proficiency in Node.js and Python, dedicated to delivering high-quality, scalable solutions.
+          Detail-oriented Mid-level Backend Developer with over 2 years of professional experience in building robust, large-scale web applications using PHP and Laravel. Proven track record of managing the full software development lifecycle, from database design (MySQL, MongoDB) to deploying RESTful APIs and integrating frontend technologies like Vue.js, jQuery, and Tailwind CSS. Strong command of OOP, SOLID principles, and design patterns (MVC, HMVC, Repository). Skilled in cloud integration (AWS S3, SES) and version control with Git. Adaptable and proactive, with expanding proficiency in Node.js and Python, dedicated to delivering high-quality, scalable solutions.
         </p>
       </section>
 
