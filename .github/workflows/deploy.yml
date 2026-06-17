@@ -35,6 +35,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Install PDF browser
+        run: npx playwright install --with-deps chromium
+
       - name: Build with Nuxt
         run: npm run generate
 

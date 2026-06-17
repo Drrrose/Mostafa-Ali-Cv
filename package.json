@@ -5,7 +5,9 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "nuxt generate && node scripts/generate-pdf.mjs",
+    "generate:site": "nuxt generate",
+    "pdf": "node scripts/generate-pdf.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -17,6 +19,7 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.14.0",
     "autoprefixer": "^10.4.22",
+    "playwright": "^1.61.0",
     "postcss": "^8.5.6"
   }
 }

@@ -289,16 +289,19 @@
           <div class="block sm:hidden print:hidden h-4"></div>
           
           <div class="fixed bottom-4 right-4 print:hidden">
-            <button onclick="window.print()" class="bg-primary text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-800 transition flex items-center gap-2 font-bold">        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <a :href="pdfHref" download="Mostafa-Ali-Cv.pdf" class="bg-primary text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-800 transition flex items-center gap-2 font-bold">        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
         </svg>
         Download PDF
-      </button>
+      </a>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+const runtimeConfig = useRuntimeConfig()
+const pdfHref = `${runtimeConfig.app.baseURL}Mostafa-Ali-Cv.pdf`
+
 useHead({
   title: 'Mostafa Ali - CV',
   htmlAttrs: {
