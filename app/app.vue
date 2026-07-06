@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-100 py-10 print:p-0 print:bg-white flex flex-col items-center gap-8 print:block print:gap-0 font-sans text-gray-800">
     
     <!-- Page 1 -->
-    <div class="bg-white w-full md:w-[210mm] min-h-[297mm] p-4 md:p-8 print:p-6 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border print:break-after-page">
+    <div class="bg-white w-full md:w-[210mm] min-h-[297mm] p-4 md:p-8 print:px-6 print:py-4 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border">
       
       <!-- Header -->
       <header class="text-center mb-6 print:mb-2">
@@ -99,12 +99,12 @@
         </h2>
 
         <!-- Job DotLaa -->
-        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2 print:break-inside-avoid">
-          <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
+        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2">
+          <div class="w-full md:w-[15%] print:w-[20%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>12/2025–Present</p>
             <p class="text-primary"></p>
           </div>
-          <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
+          <div class="w-full md:w-[85%] print:w-[80%] pl-0 md:pl-6 print:pl-4">
             <h3 class="font-bold text-lg">Backend Developer, <span class="italic font-normal">DotLaa Solution</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Architected and developed complex backend systems for multiple platforms using the Laravel ecosystem, demonstrating proficiency in scalable application design and API development.</li>
@@ -118,19 +118,19 @@
         </article>
 
         <!-- Job 1 -->
-        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2 print:break-inside-avoid">
-          <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
+        <article class="flex flex-col md:flex-row print:flex-row mb-4 print:mb-2">
+          <div class="w-full md:w-[15%] print:w-[20%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>06/2024–11/2025</p>
             <p class="text-primary">Cairo, Egypt</p>
           </div>
-          <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
+          <div class="w-full md:w-[85%] print:w-[80%] pl-0 md:pl-6 print:pl-4">
             <h3 class="font-bold text-lg">Backend Developer, <span class="italic font-normal">Remah Digital</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Developed and maintained full-stack web applications using the Laravel framework, focusing on creating scalable and secure systems for various clients.</li>
               <li>Engineered RESTful APIs to support mobile and frontend integrations, ensuring seamless data flow and communication between services.</li>
               <li>Established clear performance metrics for the team which helped in tracking progress towards set targets effectively.</li>
               <li>Collaborated with teams to design database schemas, implement business logic, and integrate third-party services like payment gateways and notification systems.</li>
-              <li>Engineered <a href="https://nephrocaremd.org/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">NephroCareMD</a> (nephrocaremd.org), a HIPAA-compliant, multi-lingual CMS for medical clinics with encrypted AWS S3 storage, secure patient data controls, Twilio SMS, and AWS SES email.</li>
+              <li>Engineered <a href="https://nephrocaremd.org/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">NephroCareMD</a> (nephrocaremd.org) &amp; <a href="https://www.homecomfortdialysis.org/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">Home Comfort Dialysis</a> (homecomfortdialysis.org), HIPAA-compliant multi-lingual CMS platforms for medical clinics with encrypted AWS S3 storage, secure patient data controls, Twilio SMS, and AWS SES email.</li>
               <li>Developed <a href="https://unipartykw.com/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">UnipartyKW</a> (unipartykw.com), a full-stack e-commerce platform with product variants/attributes, order management, client management, and a dynamic promotions engine.</li>
               <li>Integrated multi-language (Arabic/English/Spanish) and RTL support for localized user experience.</li>
               <li>Built <a href="https://wafabridge.com/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">WafaBridge</a> (wafabridge.com), a translation workflow platform with order creation, dynamic pricing, PayPal/Tap payments, and translator assignment.</li>
@@ -140,12 +140,12 @@
         </article>
 
         <!-- Job 2 -->
-        <article class="flex flex-col md:flex-row print:flex-row">
-           <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
+        <article class="flex flex-col md:flex-row print:flex-row print:break-inside-avoid">
+           <div class="w-full md:w-[15%] print:w-[20%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>01/2024–03/2024</p>
             <p class="text-primary">Cairo, Egypt</p>
           </div>
-           <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
+           <div class="w-full md:w-[85%] print:w-[80%] pl-0 md:pl-6 print:pl-4">
             <h3 class="font-bold text-lg">Backend Intern, <span class="italic font-normal">Active4Web</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Assisted the development team in building and maintaining backend modules using Laravel and MySQL.</li>
@@ -158,10 +158,10 @@
     </div>
 
     <!-- Page 2 -->
-    <div class="bg-white w-full md:w-[210mm] min-h-[297mm] p-4 md:p-8 print:p-6 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border">
+    <div class="bg-white w-full md:w-[210mm] min-h-[297mm] p-4 md:p-8 print:px-6 print:py-4 shadow-lg print:shadow-none print:w-full print:min-h-0 box-border">
       <!-- Education -->
-      <section class="mb-6">
-        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
+      <section class="mb-6 print:mb-3">
+        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 print:mb-2 flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
              <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5z" />
              <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
@@ -171,11 +171,11 @@
         </h2>
 
         <article class="flex flex-col md:flex-row print:flex-row mb-4">
-          <div class="w-full md:w-[15%] print:w-[15%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
+          <div class="w-full md:w-[15%] print:w-[20%] text-sm font-semibold text-primary pt-1 md:whitespace-nowrap print:whitespace-nowrap mb-1 md:mb-0 print:mb-0">
             <p>10/2021 – 06/2025</p>
-            <p><span class="border-b-2 ">Cairo</span>,Egypt</p>
+            <p>Cairo, Egypt</p>
           </div>
-          <div class="w-full md:w-[85%] print:w-[85%] pl-0 md:pl-6 print:pl-6">
+          <div class="w-full md:w-[85%] print:w-[80%] pl-0 md:pl-6 print:pl-4">
             <h3 class="font-bold text-lg">Computer Science</h3>
             <h3 class="font-bold text-lg"> (Shorouk Academy)</h3>
             <div class="mt-2">
@@ -187,24 +187,24 @@
       </section>
 
       <!-- Technical Skills -->
-      <section class="mb-6">
-        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
+      <section class="mb-6 print:mb-3">
+        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 print:mb-2 flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
           </svg>
           Technical Skills
         </h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 gap-x-8 gap-y-4 text-sm">
+        <div class="grid grid-cols-1 md:grid-cols-2 print:grid-cols-2 gap-x-8 gap-y-4 print:gap-y-2 text-sm">
             <div>
-                <div class="mb-3">
+                <div class="mb-3 print:mb-2">
                     <p class="font-bold">Front End Development</p>
                     <p class="italic text-gray-600">HTML, CSS, JavaScript, Vue.js, Tailwind CSS, Bootstrap, and JQuery</p>
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 print:mb-2">
                     <p class="font-bold">Front End UI Frameworks</p>
                     <p class="italic text-gray-600">Syncfusion and Telerik</p>
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 print:mb-2">
                     <p class="font-bold">Database</p>
                     <p class="italic text-gray-600">MySQL, SQLite, SQL Server, Firebase, MongoDB</p>
                 </div>
@@ -214,25 +214,25 @@
                 </div>
             </div>
             <div>
-                <div class="mb-3">
+                <div class="mb-3 print:mb-2">
                     <p class="font-bold">Backend Development</p>
-                    <p class="italic text-gray-600 leading-relaxed">PHP, Laravel, NodeJS, Python,  AWS S3, AWS SES, Alpine.js , PDO, Clean Architecture, Architecture Patterns (MVVM, MVC, HMVC), SOLID Principles, OOP, RESTful API, JSON, CodeIgniter, Authentication / Authorization, Performance Optimization</p>
+                    <p class="italic text-gray-600 leading-relaxed">PHP, Laravel, Eloquent ORM, Migrations, Seeders, Form Requests, Policies, Events, Listeners, Queues, Jobs, Sanctum, Passport, Pest, PHPUnit, NodeJS, Python, AWS S3, AWS SES, Alpine.js, PDO, Clean Architecture, Architecture Patterns (MVVM, MVC, HMVC), SOLID Principles, OOP, RESTful API, JSON, CodeIgniter, Authentication / Authorization, Performance Optimization</p>
                 </div>
-                <div class="mb-3">
+                <div class="mb-3 print:mb-2">
                     <p class="font-bold">Design Patterns</p>
                     <p class="italic text-gray-600">Repository, Unit of Work, SignalR and Singleton</p>
                 </div>
                  <div>
                     <p class="font-bold">DevOps & Best Practices</p>
-                    <p class="italic text-gray-600">Unit Testing, Agile / Scrum, CI/CD (Basic Knowledge), Docker (Basic Knowledge)</p>
+                    <p class="italic text-gray-600">Linux, Nginx, Unit Testing, Agile / Scrum, CI/CD (Basic Knowledge), Docker (Basic Knowledge)</p>
                 </div>
             </div>
         </div>
       </section>
 
        <!-- Courses -->
-      <section class="mb-6">
-        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
+      <section class="mb-6 print:mb-3">
+        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 print:mb-2 flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path d="M12 14l9-5-9-5-9 5 9 5z" />
             <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
@@ -249,8 +249,8 @@
       </section>
 
       <!-- Languages -->
-      <section class="mb-6">
-        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
+      <section class="mb-6 print:mb-3">
+        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 print:mb-2 flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
@@ -268,13 +268,13 @@
 
       <!-- Soft Skills -->
       <section>
-        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 flex items-center gap-2">
+        <h2 class="text-xl font-bold text-primary border-b-2 border-primary pb-1 mb-4 print:mb-2 flex items-center gap-2">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
           </svg>
           Soft Skills
         </h2>
-         <ul class="list-disc list-outside ml-6 text-sm space-y-1 text-gray-700">
+         <ul class="list-disc list-outside ml-6 text-sm space-y-1 print:space-y-0 text-gray-700">
             <li>Leadership</li>
             <li>Excellent time management and communication skills.</li>
             <li>Capacity to teach others and self-motivated.</li>
@@ -322,6 +322,22 @@ useHead({
     background: white;
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
+  }
+  .text-sm {
+    font-size: 0.8125rem !important;
+    line-height: 1.15rem !important;
+  }
+  .text-lg {
+    font-size: 1rem !important;
+    line-height: 1.3rem !important;
+  }
+  .text-xl {
+    font-size: 1.125rem !important;
+    line-height: 1.35rem !important;
+  }
+  .text-4xl {
+    font-size: 2rem !important;
+    line-height: 2.35rem !important;
   }
 }
 </style>
