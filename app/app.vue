@@ -108,9 +108,9 @@
             <h3 class="font-bold text-lg">Backend Developer, <span class="italic font-normal">DotLaa Solution</span></h3>
             <ul class="list-disc list-outside ml-4 text-sm space-y-1 print:space-y-0 mt-1">
               <li>Architected and developed complex backend systems for multiple platforms using the Laravel ecosystem, demonstrating proficiency in scalable application design and API development.</li>
-              <li>Engineered a comprehensive hotel booking platform with real-time property management. Integrated seamlessly with Agoda and eZee Booking engines, and implemented an interactive WhatsApp chatbot to streamline customer reservations and automate support.</li>
-              <li>Developed a highly secure backend for a matchmaking and matrimony application, implementing intelligent user-matching algorithms, end-to-end messaging features, and integrating Firebase for real-time push notifications.</li>
-              <li>Built a scalable ride-hailing infrastructure featuring real-time geolocation tracking, dynamic driver-passenger matching algorithms, and complex, demand-based pricing models leveraging Spatie and Firebase.</li>
+              <li>Engineered <a href="https://www.primotel.com/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">Primotel</a> (primotel.com), a hotel booking platform with real-time property management, Agoda &amp; eZee integration, and a WhatsApp chatbot for automated reservations and support.</li>
+              <li>Developed a secure backend for <a href="https://play.google.com/store/apps/details?id=com.yamentec.mu7gaba" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">MU7AGABA Muslim Marriage App</a> (Google Play), with smart user matching, end-to-end messaging, and Firebase push notifications.</li>
+              <li>Built a scalable ride-hailing platform with real-time GPS tracking, dynamic driver-passenger matching, and demand-based pricing using Spatie and Firebase.</li>
               <li>Leveraged advanced Laravel features and packages, including Spatie Translatable, Medialibrary, and Permission, for efficient content localization, media handling, and robust role-based access control (RBAC).</li>
               <li>Integrated diverse third-party services, including AWS S3 for secure media storage, Twilio for communications, and multiple payment gateways to ensure seamless transaction processing.</li>
             </ul>
@@ -130,12 +130,11 @@
               <li>Engineered RESTful APIs to support mobile and frontend integrations, ensuring seamless data flow and communication between services.</li>
               <li>Established clear performance metrics for the team which helped in tracking progress towards set targets effectively.</li>
               <li>Collaborated with teams to design database schemas, implement business logic, and integrate third-party services like payment gateways and notification systems.</li>
-              <li>Engineered a secure, multi-lingual, and modular CMS for medical clinics with a focus on HIPAA compliance.</li>
-              <li>Implemented encrypted media storage on AWS S3, secure patient data controls, and integrated Twilio for SMS, AWS SES for email.</li>
-              <li>Developed a full-stack e-commerce platform with comprehensive product management (variants, attributes), order processing, client management, and a dynamic promotions engine.</li>
-              <li>Integrated full multi-language (Arabic/English/Spanish) and RTL support for a localized user experience.</li>
-              <li>Built a platform to manage the entire translation workflow, including order creation, dynamic pricing, payment processing (PayPal, Tap), and translator assignment.</li>
-              <li>Implemented multi-role user management with distinct dashboards for Admins, Translators, and Customers.</li>
+              <li>Engineered <a href="https://nephrocaremd.org/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">NephroCareMD</a> (nephrocaremd.org), a HIPAA-compliant, multi-lingual CMS for medical clinics with encrypted AWS S3 storage, secure patient data controls, Twilio SMS, and AWS SES email.</li>
+              <li>Developed <a href="https://unipartykw.com/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">UnipartyKW</a> (unipartykw.com), a full-stack e-commerce platform with product variants/attributes, order management, client management, and a dynamic promotions engine.</li>
+              <li>Integrated multi-language (Arabic/English/Spanish) and RTL support for localized user experience.</li>
+              <li>Built <a href="https://wafabridge.com/" target="_blank" rel="noopener noreferrer" class="hover:underline text-blue-700">WafaBridge</a> (wafabridge.com), a translation workflow platform with order creation, dynamic pricing, PayPal/Tap payments, and translator assignment.</li>
+              <li>Implemented multi-role dashboards with distinct views for Admins, Translators, and Customers.</li>
             </ul>
           </div>
         </article>
